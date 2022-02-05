@@ -8,7 +8,7 @@ class Grades {
         } else if (grade >= 80){
             System.out.println("B");
         } else if(grade >= 70){
-          System.out.println("C");  
+        //   System.out.println("C");  
         } else if(grade >= 55){
           System.out.println("D");
         } else if(grade <= 55){
@@ -32,7 +32,7 @@ class Grades {
                 System.out.println("Thursday");
                 break;
             case 5:
-                System.out.println("Friday");
+                // System.out.println("Friday");
                 break;
             case 6:
                 System.out.println("Saturday");
@@ -52,11 +52,39 @@ class Grades {
         } else if(num % 2 == 0 && num <= 5 && num >= 2){
           System.out.println("Not Cool");
         } else if(num % 2 == 0 && num >= 6 && num <= 20){
-          System.out.println("Cool");
+        //   System.out.println("Cool");
         } else if(num % 2 == 0 && num > 20){
           System.out.println("Not Cool");
         } 
 
+
+        // 11111
+        // 22222
+        // 33333
+        // 44444
+        // 55555
+        // for(int r = 1; r <= 5; r++){
+        //     for(int c = 1; c <= 5; c++){
+        //         System.out.print(r);
+        //     }
+        //     System.out.println();
+        // }
+
+
+        // 1
+        // 22
+        // 333
+        // 4444
+        // 55555
+        for(int r = 1; r <= 5; r++){
+            for(int c = 1; c <= r; c++){
+                System.out.print(r);
+            }
+            System.out.println();
+        }
+
+        
+    
 
 
 
