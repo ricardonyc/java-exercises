@@ -43,10 +43,6 @@ public class Calculator {
 		case 4:
 			System.out.println(num1 + " / " + num2 + " = " + divide(num1, num2));
 			break;
-		case 5:
-			System.out.println("Exited program.");
-			System.exit(0);
-			break;
 		default:
 			System.out.println("Error, Please Try Again.");
 			break;
