@@ -7,6 +7,17 @@ public class MarathonId {
 	
 	
 	private long marathonIdNum;
+
+
+	public long getMarathonIdNum() {
+		return marathonIdNum;
+	}
+
+
+	public void setMarathonIdNum(long marathonIdNum) {
+		this.marathonIdNum = marathonIdNum;
+	}
+
 	
 
 	public long createMarathonId() {
